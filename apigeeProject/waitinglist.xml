@@ -1,0 +1,18 @@
+<APIProxy revision="20" name="waitinglist">
+    <DisplayName></DisplayName>
+    <Description>description for surgery waiting list</Description>
+    <CreatedAt>1670683229935</CreatedAt>
+    <LastModifiedAt>1670685638931</LastModifiedAt>
+    <BasePaths>/waitinglist</BasePaths>
+    <Policies>
+        <Policy>404-Fault</Policy>
+        <Policy>Verify-API-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>TargetEndpointSurgery</TargetEndpoint>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
